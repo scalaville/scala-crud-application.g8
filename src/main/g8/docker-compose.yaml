@@ -1,0 +1,10 @@
+version: "3"
+services:
+  scalaville-db:
+    image: "postgres"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "scalav1ll3"
+      POSTGRES_DB: "postgres"
